@@ -78,6 +78,34 @@ Header area
 
 header {
     height: 80px;
+    padding: 20px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 34px;
+    color: var(--section-title-color);
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav>ul>li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.menu nav>ul>li>a {
+    color: var(--paragraph-text-color);
+    font-size: 18px;
 }
 
 
@@ -546,6 +574,10 @@ footer area
 }
 
 @media (max-width: 850px) {
+    /* header  */
+    .display-none-mobile {
+        visibility: hidden;
+    }
     /* banner area  */
     .top-banner {
         margin-top: 50px;
