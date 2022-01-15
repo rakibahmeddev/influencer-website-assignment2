@@ -40,7 +40,6 @@
 }
 
 .main-button {
-    margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
@@ -49,11 +48,76 @@
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .main-button:hover {
     background-position: right center;
     color: #fff;
     text-decoration: none;
+}
+
+
+/*Common Style end */
+
+
+/*=======================
+Header area
+=========================*/
+
+header {
+    height: 100px;
+}
+
+
+/* ===================
+Main Design Starts  
+====================*/
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left-area {
+    margin-right: 280px;
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #3A3A3A;
+    font-family: var(--poppins-font-family);
+}
+
+.body-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--poppins-font-family);
+    line-height: 24px;
+    color: var(--paragraph-text-color);
+    margin: 16px 0;
+}
+
+.banner-bg {
+    position: relative;
+}
+
+.banner-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.banner-image img {
+    width: 440px;
+    height: 414px;
 }
