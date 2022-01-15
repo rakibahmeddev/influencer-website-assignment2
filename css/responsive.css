@@ -1,0 +1,8 @@
+/*Media*/
+
+@media (max-width: 1280px) {
+    .container {
+        background-color: brown;
+        width: 90%;
+    }
+}
